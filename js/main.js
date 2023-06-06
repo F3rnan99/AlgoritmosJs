@@ -47,10 +47,10 @@ function animation(){
     figura.classList.toggle("animation");
 }
 function panel(){
-    const panel = document.getSelector(".panel");
-    figura.classList.toggle("active");
+    const figura= document.getElementById(".panel");
+    figura.classList.add("active");
 }
 function modal(){
-    const modal = document.getElementById("#modal");
+    const modal = document.getElementById("modal");
     modal.classList.toggle("active");
 }
