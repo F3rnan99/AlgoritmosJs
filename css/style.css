@@ -120,7 +120,7 @@ h2{
 .panel{
     position: absolute;
     top: 0;
-    left: -500;
+    left: -500px;
     width: 300px;
     height: 130vh;
     background: floralwhite;
@@ -139,7 +139,7 @@ h2{
     color: #001F3F;
 }
 .panel.active{
-    left: 0;
+    left: 0px;
 }
 #modal{
     width: 100;
@@ -171,11 +171,11 @@ h2{
     padding: 10px 40px;
 }
 #cerrar{
-position: absolute;
-top: 20px;
-right: 20px;
-background: transparent;
-color: #999;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+    color: #999;
 }
 #modal.active{
     display: flex;
