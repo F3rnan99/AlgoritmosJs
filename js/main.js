@@ -47,8 +47,8 @@ function animation(){
     figura.classList.toggle("animation");
 }
 function panel(){
-    const figura= document.getElementById(".panel");
-    figura.classList.add("active");
+    const figura= document.querySelector(".panel");
+    figura.classList.toggle("active");
 }
 function modal(){
     const modal = document.getElementById("modal");
